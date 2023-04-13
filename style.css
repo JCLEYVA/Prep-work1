@@ -1,0 +1,196 @@
+
+
+
+body ,html {
+    width: 900px; 
+    height: 100%;
+    align-self: center;
+    align-content: center;
+    display: table;
+    vertical-align: middle;
+
+}
+
+body>header>.head {
+    display: block;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+body>header strong {
+    font-size: .75em;
+}
+
+body>header>nav,
+body>header>nav>ul {
+    float: right;
+    position: relative;
+    top: 6px;
+}
+
+
+.nav-header-left {
+    display: inline-block;
+    position: relative;
+}
+
+.left img {
+    display: inline-block;
+
+}
+
+
+
+.nav-header-left-delicious {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;
+}
+
+
+
+
+.quote {
+    position: relative;
+    font-family: 'Sue Ellen Francisco';
+    margin: 0;
+    margin-bottom: 0;
+    font-size: 10px;
+    color: darkgrey
+}
+
+#nav-header-right {
+    float: right;
+}
+
+.print-icon {
+    float: right;
+    position: right;
+    color: lightgrey;
+ 
+}
+
+.PRINT {
+    font-size: 10px;
+}
+
+.light-grey-font {
+    color: lightgrey;
+    text-indent: none;
+}
+
+.h1 {
+    font-family: 'Fanklin Gothic Medium', Arial, sans-serif;
+
+}
+
+.h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
+
+}
+
+header {
+    border-bottom: thick;
+    border-bottom-style: ridge;
+    border-bottom-color: grey;
+    border-width: 3px;
+}
+
+#chocolate-pizza-title {
+    font-family: 'Roboto' , Bold;
+    font-size: 24px
+}
+
+p {
+    text-indent: 30px;
+    font-size: 12px;
+}
+
+.recipe {
+    background-image: url("Assets /list-bg.png");
+}
+
+main li {
+    list-style-type: none;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+
+#list1, #list2{
+    list-style: none;
+    display: inline-block;
+  }
+
+
+#list1{
+    list-style: none;
+    margin-top:;
+    margin-left: 10px;
+    margin-right: px;
+}
+
+#list2 {
+    float: right;
+    margin-left: px;
+    margin-top: -137px;
+    margin-right: 150px;
+
+}
+
+.margins {
+    margin: -5px;
+   
+}
+
+#button {
+    background: hwb(15 37% 20%);
+    color: white;
+    padding: 9px 30px;
+    display: inline-block;
+    align-content: right;
+    float: right;
+    
+  }
+
+
+input[type=checkbox]:checked + label {
+  color: black;
+  text-decoration: line-through;
+}
+/*   
+.footerborder {
+    position: center;
+    color: lightgrey;
+    width: 900px;
+    
+} */
+
+.final{
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    top: 28px;
+    left: 45%;
+    z-index: 1;
+}
+
+.authorinfo {
+    display: inline-block;
+    margin-top: 25px;
+  }
+
+.allrightsreserved {
+    text-align: center;
+    color: lightgrey;
+}
+ 
+
+
